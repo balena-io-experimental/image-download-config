@@ -1,0 +1,29 @@
+{
+  "name": "image-download-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resin-io-playground/image-download-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resin-io-playground/image-download-config/issues"
+  },
+  "homepage": "https://github.com/resin-io-playground/image-download-config#readme",
+  "dependencies": {
+    "aws-sdk": "^2.76.0",
+    "bluebird": "^3.5.0",
+    "file-disk": "github:resin-io-modules/file-disk#record-discards",
+    "lodash": "^4.17.4",
+    "partitioninfo": "^2.0.1",
+    "reconfix": "github:resin-io/reconfix#update-resin-image-fs",
+    "resin-image-fs": "github:resin-io-modules/resin-image-fs#update-node-ext2fs",
+    "stream-progressbar": "^1.0.2"
+  }
+}

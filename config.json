@@ -1,0 +1,7 @@
+{
+  "gpuMem": 1024,
+  "appUpdatePollInterval": "60000",
+  "networkType": "wifi",
+  "networkSsid": "resin",
+  "networkKey": "secretpassword"
+}
